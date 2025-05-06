@@ -121,3 +121,14 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
   `);
 };
+
+// fix not use ios & andriod if not exixts
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      ios: Boolean
+      android: Boolean
+    }
+  `);
+};
