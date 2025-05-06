@@ -21,7 +21,7 @@ const StyledAboutSection = styled.section`
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-template-columns: repeat(2, minmax(200px, 200px));
     grid-gap: 0 10px;
     padding: 0;
     margin: 20px 0 0 0;
@@ -125,14 +125,17 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Programming Languages⋮ Python, JavaScript, C++, SQL', 
-  'Databases⋮ MySQL, MariaDB, PostgresSQL', 'Cloud Platforms⋮ AWS, GCP, Heroku',
-   'Containerization⋮ Docker, Docker Compose', 
-   'Web Technologies⋮ HTML, CSS, JavaScript, Streamlit, Flask, Gunicorn, Nginx', 
-   'Operating Systems⋮ Linux, Windows & Mac OS', 
-   'Data Science and Miscellaneous Technologies⋮ Data science pipelines, OOP, APIs, BeautifulSoup, Selenium, Requests, Anaconda, Notion, Figma.',
-   'Machine Learning and Deep Learning Tooklkit⋮ Jupyter Notebook, Google Colab, Python(Scikit-learn, Numpy, Pandas, Matplotlib), Keras, Tensorflow, OpenCV, mediapie,',
-   'Version Control⋮ Git, Github, Gitlab, DockerHub'];
+  const skills = [
+    'Programming Languages⋮ Python, SQL',
+    'Developer Tools⋮ Git, GitHub, Pytest, YAML, Bash, VS Code',
+    'DataOps & DevOps⋮ AWS, Azure, Digital Ocean, OVH Cloud, Terraform, Ansible, GitHub Actions, Docker, Helm, Kubernetes, Prometheus, Loki, Grafana',
+    'Data Processing⋮ Apache Spark, Apache Kafka, Debezium, Pandas, Polars, BeautifulSoup, Soda-core, Google Looker',
+    'ETL/ELT Tools⋮ Prefect, Apache Airflow, Fivetran, Airbyte, dltHub, DBT, Selenium',
+    'Databases & Storage⋮ Postgres, MongoDB, Redis, DuckDB, S3, Minio, Snowflake, Redshift, ClickHouse',
+    'Data Modeling & Warehousing⋮ Dimensional Modeling, ERD Modeling, Data Warehouse Design',
+    'Backend & Messaging⋮ Flask, FastAPI, RabbitMQ, Traefik, Nginx',
+    'Machine Learning & AI⋮ Jupyter, Scikit-learn, Keras, TensorFlow, LangChain, OpenAI GPT-4, NLTK, Librosa, SciPy',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,21 +144,25 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hi, my name is Best Nyah.
-              I build solutions with data. </p>
+            <p>I build data-driven solutions that turn complexity into clarity. </p>
             <p>
-              I’m a self-taught Machine Learning and software engineer who loves to
-              build and occasionally design software solutions to solve real life
-              problems with data.
+              With a background in Computer Engineering, I specialize in building end-to-end data
+              platforms and AI/ML solutions that solve complex, real-world problems.{' '}
+            </p>
 
-              My interest in Machine Learning got all triggered when I discovered
-              how fascinating it was to tackle literally  any sort of human problems
-              with data. Which works by finding a suitable way to convert any form of
-              data to some numerical format and feeding it to an algorithm to learn
-              and derive patterns hidden in the data.  This has driven me to commit
-              and learn more about the data domain and I've had the privilege  of
-              working at a <a href="https://technocolabs.com/">start-up, AI firm</a>
-              with advanced AI tools and frameworks to build powerful solutions to real-life problems
+            <p>
+              My journey began at <a href="https://technocolabs.com/">Technocolabs Softwares</a>
+              &nbsp; where I contributed to the development of intelligent data pipelines, applying
+              spectral analysis and unsupervised learning techniques to audio data. Since then, I’ve
+              grown into a multidisciplinary Data & software Engineer, working with clients across
+              the globe to design, implement, and scale data infrastructure using tools like Apache
+              Kafka, Spark, Airflow, DBT, and cloud-native platforms.{' '}
+            </p>
+
+            <p>
+              My work blends software engineering, data architecture, and machine learning to
+              deliver systems that are not only efficient and reliable but also insight-driven and
+              production-ready.
             </p>
 
             <p>Here is a list of the technologies that I'm familiar with:</p>
@@ -170,7 +177,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpeg"
+              src="../../images/me1.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

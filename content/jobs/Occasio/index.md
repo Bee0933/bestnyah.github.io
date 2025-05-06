@@ -1,14 +1,12 @@
 ---
-date: '2015-12-21'
-title: 'Software Engineer - Python'
-company: 'Occasio Ltd'
-location: 'Remote'
-range: 'November 2021 - Present'
+date: '2021-11-01'
+title: 'Software Engineer'
+company: 'Ocassio LTD'
+location: 'Remote, Nigeria'
+range: 'Nov 2021 – Dec 2023'
 url: ''
 ---
 
-- Ingested data from various sources such as third party APIs and SQL database to visualize information.
-- Built RESTful APIs with Flask for in-house development.
-- Culled/scraped data using Selenium and BeautifulSoup.
-- Collected, cleaned and provided data science teams with data for ML model creation.
-
+- Architected RESTful APIs using FastAPI to standardize data exchange across 15+ services, improving system interoperability and enabling real-time data synchronization.
+- Streamlined and automated data workflows for processing, transformation, and integration from multiple sources, optimizing data visibility and usability.
+- Collaborated with the machine learning team to implement data warehousing with AWS Redshift and data modeling using DBT, resulting in a 15% improvement in decision-making efficiency and a 25% reduction in data errors.

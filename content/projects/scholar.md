@@ -1,16 +1,16 @@
 ---
-date: '2022-07-15'
+date: '2022'
 title: 'Auto Scrape Google-Scholar'
 github: 'https://github.com/Bee0933/Auto_scrape_google_scholar'
 external: '#'
 tech:
-  - Python 
-  - Anaconda 
-  - Vscode 
+  - Python
+  - Anaconda
+  - Vscode
   - Pandas
   - Beautiful Soup
   - Selenium
-  - git 
+  - git
 
 showInProjects: true
 ---

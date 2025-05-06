@@ -1,15 +1,13 @@
 ---
-date: '2015-12-21'
-title: 'Machine Learning Developer Intern, Software Division'
-company: 'Technocolabs'
-location: 'Indore, India'
-range: 'December 2021 - February 2022'
+date: '2021-01-01'
+title: 'Machine Learning Engineer Intern'
+company: 'Technocolabs Softwares'
+location: 'Remote, India'
+range: 'Nov 2021 – Feb 2022'
 url: 'https://technocolabs.com/'
 ---
 
-- Utilized python to build a data pipeline to prepare data and extract relevant features from a popular music website.
-- Applied python with relevant APIs to collect 4GB+ worth of audio data for extraction of several spectral features into raw dimensions to form dataset.
-- Implemented an unsupervised machine learning technique to extract repeated audio patterns from multiple song tracks and reduce high dimensional data from audio features, which reduced the original dimensionto half.
-- Delivered finished designs to clients viaBuilt and evaluated multiple models using several machine learning algorithms with team members including implementing an Artificial neural network.
-- Deployed model to a flask web app and hosted on a cloud platform.
-
+- Built a data pipeline using Python and APIs to collect and preprocess audio data from a music platform.
+- Applied spectral analysis techniques to improve dataset quality and increase data volume by 70%.
+- Implemented unsupervised learning to identify recurring patterns and reduce dimensionality while preserving key features.
+- Collaborated on the development and evaluation of machine learning models, including a neural network, to ensure optimal performance.

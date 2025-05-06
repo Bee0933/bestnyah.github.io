@@ -105,3 +105,19 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
     },
   });
 };
+
+// gatsby-node.js
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      title: String
+      cover: File @fileByRelativePath
+      github: String
+      external: String
+      tech: [String]
+      cta: String
+    }
+  `);
+};
