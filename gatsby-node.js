@@ -122,6 +122,15 @@ exports.createSchemaCustomization = ({ actions }) => {
   `);
 };
 
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      cta: String
+    }
+  `);
+};
+
 // fix not use ios & andriod if not exixts
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions;
