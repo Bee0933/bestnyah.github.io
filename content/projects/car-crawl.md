@@ -3,8 +3,6 @@ date: '2022'
 title: 'Car sales site web crawler'
 github: 'https://github.com/Bee0933/simple_Car_sales_site_web_crawler'
 external: '#'
-ios: '#'
-android: '#'
 tech:
   - Python
   - Pandas
