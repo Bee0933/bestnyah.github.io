@@ -17,7 +17,7 @@ tech:
   - Snowflake
   - GitHub Actions
   - Traefik
-cta: null
+cta: 'https://github.com/Bee0933/reddit-r-news-pipeline'
 ---
 
 Production-grade data pipeline extracting Reddit Worldnews data, deployed on DigitalOcean using Airflow. <br>

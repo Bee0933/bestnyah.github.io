@@ -14,7 +14,7 @@ tech:
   - Github Actions
   - Nginx
   - Slack
-cta: null
+cta: 'https://github.com/Bee0933/filecoin-nodes'
 ---
 
 End-to-end infrastructure for deploying Filecoin Forest and Lotus nodes on AWS. Configurations optimize storage, availability, monitoring, and security. Automates deployment using Terraform, Ansible, and Docker, with monitoring through Prometheus, Grafana, and Slack alerts.

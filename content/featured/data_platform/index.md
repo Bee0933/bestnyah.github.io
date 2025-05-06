@@ -19,7 +19,7 @@ tech:
   - Loki
   - Node Exporter
   - Promtail
-cta: null
+cta: 'https://github.com/Bee0933/Data-ingestion-platform'
 ---
 
 Built an automated data ingestion pipeline using DigitalOcean, Python, Docker, GitHub Actions, and other tools. Airbyte orchestrates data ingestion from a secure SFTP server, storing it in Minio. <br>

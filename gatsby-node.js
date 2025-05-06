@@ -131,6 +131,21 @@ exports.createSchemaCustomization = ({ actions }) => {
   `);
 };
 
+// gatsby-node.js or gatsby-config.js (schema customization API)
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      title: String
+      external: String
+      github: String
+      tech: [String]
+      cover: File @fileByRelativePath
+      cta: String
+    }
+  `);
+};
+
 // fix not use ios & andriod if not exixts
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions;
