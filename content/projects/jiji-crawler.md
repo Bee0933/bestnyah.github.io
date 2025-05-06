@@ -10,6 +10,7 @@ tech:
   - Selenium
 
 showInProjects: true
+cta: null
 ---
 
 Deployed an API crawler for Jiji on AWS Lambda using the Serverless Application Model (SAM) to fetch and process real-time listings data efficiently.

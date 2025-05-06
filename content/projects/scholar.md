@@ -13,6 +13,7 @@ tech:
   - git
 
 showInProjects: true
+cta: null
 ---
 
 An automated web crawler that extracts automatically from google scholar based on specific search at different time intervals.

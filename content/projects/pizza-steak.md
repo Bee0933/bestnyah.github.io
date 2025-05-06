@@ -11,6 +11,7 @@ tech:
   - Google colab
 
 showInProjects: true
+cta: null
 ---
 
 Built a pizza & steak food classifer with a Convolutional Neural Network Deep Learning Architecture

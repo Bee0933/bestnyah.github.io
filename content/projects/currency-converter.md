@@ -15,6 +15,7 @@ tech:
   - Requests
 
 showInProjects: true
+cta: null
 ---
 
 Built a real-time currency converter API using FastAPI. It fetches the latest exchange rates via the forex-python library and supports secure token-based access with JWT. Deployed on Heroku with PostgreSQL for data storage.

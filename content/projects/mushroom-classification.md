@@ -14,6 +14,7 @@ tech:
   - Heroku
 
 showInProjects: true
+cta: null
 ---
 
 Built a machine learning web app to classify 23 mushroom species as edible or poisonous based on physical features. Deployed with Streamlit and Docker, and hosted on Heroku for public access.

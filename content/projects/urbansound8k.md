@@ -12,6 +12,7 @@ tech:
   - Jupyter Notebook
 
 showInProjects: true
+cta: null
 ---
 
 Built an audio classification model using the UrbanSound8k dataset and deep learning. The model classifies 10 types of urban sounds including sirens, dog barks, and drilling, using CNNs and audio feature extraction via Librosa.
