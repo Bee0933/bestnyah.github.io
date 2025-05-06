@@ -65,7 +65,7 @@ const Hero = () => {
     <>
       <p>
         I'm
-        a highly passionate Machine Learning & software engineer with 2+ years of experience coding, discovering hidden patterns in
+        a highly passionate Data Engineering, Machine Learning & software engineer with 4+ years of experience coding, discovering hidden patterns in
         data, designing and debugging various
         software systems.
       </p>
