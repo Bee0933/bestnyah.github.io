@@ -1,5 +1,5 @@
 ---
-date: '2022'
+date: '2022-01-01'
 title: 'UrbanSound8k Classifier'
 github: 'https://github.com/Bee0933/urbansound8k-classification'
 external: '#'
