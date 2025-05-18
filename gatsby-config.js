@@ -1,11 +1,11 @@
 const config = require('./src/config');
 
 module.exports = {
-  pathPrefix: "/bestnyah.github.io",
+  pathPrefix: '/bestnyah.github.io',
   siteMetadata: {
     title: 'Best Nyah',
     description:
-      'Best Nyah is a highly passionate Machine Learning & software engineer with 2+ years of experience coding, discovering hidden patterns in data, designing and debugging various software systems.',
+      'Best Nyah is a versatile Data and Software Engineer with 4+ years of experience in AI, cloud technologies, and data pipelines, skilled in uncovering insights, building resilient systems, and optimizing performance through smart automation and monitoring.',
     siteUrl: 'https://github.com/Bee0933/bestnyah.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@Bee_Nyah_',
