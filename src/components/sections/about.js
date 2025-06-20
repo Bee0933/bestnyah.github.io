@@ -134,7 +134,7 @@ const About = () => {
     'Databases & Storage⋮ Postgres, MongoDB, Redis, DuckDB, S3, Minio, Snowflake, Redshift, ClickHouse',
     'Data Modeling & Warehousing⋮ Dimensional Modeling, ERD Modeling, Data Warehouse Design',
     'Backend & Messaging⋮ Flask, FastAPI, RabbitMQ, Traefik, Nginx',
-    'Machine Learning & AI⋮ Jupyter, Scikit-learn, Keras, TensorFlow, LangChain, OpenAI GPT-4, NLTK, Librosa, SciPy',
+    'Machine Learning & AI⋮ Jupyter, Scikit-learn, Keras, TensorFlow, JAX, Flax, LangChain, OpenAI GPT-4, NLTK, Librosa, SciPy',
   ];
 
   return (
