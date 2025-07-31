@@ -1,6 +1,6 @@
 ---
 date: '2025-01-01'
-title: 'Data & Python Engineer'
+title: 'Data Engineer'
 company: 'Upwork (Freelance)'
 location: 'Remote, Worldwide'
 range: 'Jan 2022 – Present'
