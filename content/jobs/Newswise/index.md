@@ -14,4 +14,4 @@ url: 'https://www.newswise.com/'
 - Successfully reduced ETL process runtime by 30% through optimization and parallel processing techniques.
 - Enhanced data quality and consistency by implementing automated validation checks, resulting in a 25% reduction
   in data errors.
-- Key role in scaling pipeline for 50% data volume increase, ensuring smooth ingestion and processing
+- Key role in scaling pipeline for 50% data volume increase, ensuring smooth ingestion and processing.

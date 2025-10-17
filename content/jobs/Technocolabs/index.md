@@ -7,7 +7,7 @@ range: 'Nov 2021 – Feb 2022'
 url: 'https://technocolabs.com/'
 ---
 
-- Built a data pipeline using Python and APIs to collect and preprocess audio data from a music platform.
-- Applied spectral analysis techniques to improve dataset quality and increase data volume by 70%.
-- Implemented unsupervised learning to identify recurring patterns and reduce dimensionality while preserving key features.
-- Collaborated on the development and evaluation of machine learning models, including a neural network, to ensure optimal performance.
+- Built a data pipeline with Python and APIs to collect and preprocess audio data from a music platform.
+- Applied spectral analysis to enhance dataset quality and size by 70%.
+- Used unsupervised learning to detect repeated patterns, reducing dimensionality while keeping key features.
+- Collaborated on developing and evaluating ML models, including a neural network, for optimal performance.

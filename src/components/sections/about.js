@@ -127,14 +127,14 @@ const About = () => {
 
   const skills = [
     'Programming Languages⋮ Python, SQL',
-    'Developer Tools⋮ Git, GitHub, Pytest, YAML, Bash, VS Code',
-    'DataOps & DevOps⋮ AWS, Azure, Digital Ocean, OVH Cloud, Terraform, Ansible, GitHub Actions, Docker, Helm, Kubernetes, Prometheus, Loki, Grafana',
-    'Data Processing⋮ Apache Spark, Apache Kafka, Debezium, Pandas, Polars, BeautifulSoup, Soda-core, Google Looker',
-    'ETL/ELT Tools⋮ Prefect, Apache Airflow, Fivetran, Airbyte, dltHub, DBT, Selenium',
-    'Databases & Storage⋮ Postgres, MongoDB, Redis, DuckDB, S3, Minio, Snowflake, Redshift, ClickHouse',
+    'Developer Tools⋮ Git, GitHub, Pytest, YAML, Bash, VS Code, Wiz',
+    'DataOps/DevOps⋮ AWS, Azure, Digital Ocean, OVH Cloud, Terraform, Ansible, GitHub Actions, Docker, Helm, Kubernetes, Prometheus, Loki, Grafana',
+    'Data Processing⋮ Apache Spark, Apache Kafka, Debezium, Pandas, Polars, BeautifulSoup, Soda-core, Athena, Tableau, Google Looker',
+    'ETL/ELT Tools⋮ Prefect, Apache Airflow, Glue, EMR, Lambda, Step Functions, Fivetran, Airbyte, dltHub, DBT, SQLFluf',
+    'DB/Datastore/Warehouse: Postgres, MongoDB, Redis, DuckDB, S3, Minio, Snowflake, Redshift, Apache Iceberg',
     'Data Modeling & Warehousing⋮ Dimensional Modeling, ERD Modeling, Data Warehouse Design',
-    'Backend & Messaging⋮ Flask, FastAPI, RabbitMQ, Traefik, Nginx',
-    'Machine Learning & AI⋮ Jupyter, Scikit-learn, Keras, TensorFlow, JAX, Flax, LangChain, OpenAI GPT-4, NLTK, Librosa, SciPy',
+    'Backend: Flask, FastAPI, RabbitMQ, Traefik, Nginx',
+    'ML/AI: Jupyter, Scikit-learn, Numpy, Keras, Tensorflow, JAX, Flax, OpenAI, NLTK, Librosa, SciPy',
   ];
 
   return (

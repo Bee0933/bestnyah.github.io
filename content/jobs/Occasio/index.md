@@ -11,5 +11,5 @@ url: ''
   interoperability and enabling real-time data synchronization capabilities.
 - Streamlined data workflows, automating processing, transformation, and integration across systems, while
   optimizing information visualization through diverse source ingestion.
-- Collaborated with ML & Analysts team, using AWS Redshift for data warehousing and DBT for modeling, achieving 15%
-  better decision-making and 25% fewer errors.
+- Collaborated with ML & Analysts team, using AWS Redshift for data warehousing and DBT for modeling,
+  achieving 15% better decision-making and 25% fewer errors.

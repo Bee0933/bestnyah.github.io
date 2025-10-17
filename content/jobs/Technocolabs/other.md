@@ -7,6 +7,7 @@ range: 'Feb 2022 – Mar 2022'
 url: 'https://technocolabs.com/'
 ---
 
-- Provided technical mentorship to machine learning and data science interns, leading collaborative development across distributed teams to reduce deployment errors and improve delivery success.
-- Designed and implemented a Python-based data pipeline for music data collection and preprocessing.
-- Leveraged spectral analysis and unsupervised learning techniques to improve dataset quality, reduce dimensionality, and enhance feature extraction efficiency.
+- Delivered expert technical guidance to machine learning and data science interns, led cross-team collaboration on
+  software solutions, and managed distributed teams, achieving high success rates and reducing deployment errors.
+- Developed a data pipeline to collect and preprocess music data, leveraging spectral analysis and unsupervised
+  learning to enhance dataset quality, reduce dimensionality, and improve feature extraction
