@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: 'Best Nyah',
     description:
-      'Best Nyah is a versatile Data and Software Engineer with 4+ years of experience in AI, cloud technologies, and data pipelines, skilled in uncovering insights, building resilient systems, and optimizing performance through smart automation and monitoring.',
+      'Best Nyah is a versatile Data and Software Engineer with 5+ years of experience in AI, cloud technologies, and data pipelines, skilled in uncovering insights, building resilient systems, and optimizing performance through smart automation and monitoring.',
     siteUrl: 'https://github.com/Bee0933/bestnyah.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@Bee_Nyah_',
