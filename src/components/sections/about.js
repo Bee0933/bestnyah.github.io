@@ -126,15 +126,15 @@ const About = () => {
   }, []);
 
   const skills = [
-    'Programming Languages⋮ Python, SQL',
-    'Developer Tools⋮ Git, GitHub, Pytest, YAML, Bash, VS Code, Wiz',
-    'DataOps/DevOps⋮ AWS, Azure, Digital Ocean, OVH Cloud, Terraform, Ansible, GitHub Actions, Docker, Helm, Kubernetes, Prometheus, Loki, Grafana',
-    'Data Processing⋮ Apache Spark, Apache Kafka, Debezium, Pandas, Polars, BeautifulSoup, Soda-core, Athena, Tableau, Google Looker',
-    'ETL/ELT Tools⋮ Prefect, Apache Airflow, Glue, EMR, Lambda, Step Functions, Fivetran, Airbyte, dltHub, DBT, SQLFluf',
-    'DB/Datastore/Warehouse: Postgres, MongoDB, Redis, DuckDB, S3, Minio, Snowflake, Redshift, Apache Iceberg',
-    'Data Modeling & Warehousing⋮ Dimensional Modeling, ERD Modeling, Data Warehouse Design',
-    'Backend: Flask, FastAPI, RabbitMQ, Traefik, Nginx',
-    'ML/AI: Jupyter, Scikit-learn, Numpy, Keras, Tensorflow, JAX, Flax, OpenAI, NLTK, Librosa, SciPy',
+    'Programming Languages⋮ Python, Go, SQL',
+    'Developer Tools⋮ Git, GitHub, Pytest, SQLFluff, YAML, Bash, VSCode, Wiz',
+    'Data Infra/DevOps⋮ AWS, GCP, Digital Ocean, OVH Cloud, Terraform, Ansible, GitHub Actions, Jenkins, Docker, Helm, Kubernetes, Prometheus, Loki, Grafana',
+    'Data Processing⋮ Apache Spark, Apache Kafka, SNS, SQS, Debezium, Pandas, Athena',
+    'ETL/ELT Tools⋮ Prefect, Apache Airflow, Glue, EMR, Lambda, Step Functions, Fivetran, dltHub',
+    'DB/Datastore/Warehouse: Postgres, MongoDB, Redis, S3, Minio, Snowflake, BigQuery, Apache Iceberg',
+    'Analytics & Warehousing⋮ DBT, Tableau, Looker,Dimensional Modeling, ERD Modeling, Data Warehouse Design',
+    'Software: Flask, FastAPI, RabbitMQ, Traefik, Nginx',
+    'ML/AI: LangChain, LangGraph, Mastra, Jupyter, Scikit-learn, Numpy, Keras, Tensorflow, JAX, Flax, OpenAI, NLTK, Librosa, SciPy',
   ];
 
   return (

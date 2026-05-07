@@ -7,14 +7,9 @@ range: 'May 2025 – Present'
 url: ''
 ---
 
-- Architected custom data pipelines using Terraform IaC, AWS Glue, Apache Iceberg tables and implementing
-  medallion architecture to deliver analytics-ready datasets for multiple business units.
-- Optimized Snowflake operations by creating and maintaining stored procedures for daily automated data
-  integrations, reducing warehouse costs by 30% through usage monitoring and compute optimization strategies.
-- Refactored enterprise-scale dbt repository by integrating SQLFluff linting and implementing CI/CD best practices,
-  modernizing data modeling standards across the entire central codebase for improved code quality and
-  maintainability.
-- Built data governance framework using AWS Glue Catalog and Crawlers for metadata management and lineage
-  tracking.
-- Ensured pipeline reliability by monitoring Jenkins, managing vulnerabilities, and setting up alerts to reduce
-  downtime and meet SLAs.
+- Designed and deployed Apache Iceberg table infrastructure using AWS Glue Catalog and Terraform, enabling ACID transactions and schema evolution across multi-petabyte datasets with zero-copy cloning capabilities for analytics workloads.
+- Built external Iceberg tables in Snowflake connected to S3 data lake, providing unified query access across warehouse and lakehouse while reducing storage costs by 40% through separation of compute and storage.
+- Architected near real-time data pipelines using AWS Glue streaming ETL jobs integrated with SQS, SNS, and Lambda for event-driven processing, achieving sub-minute data freshness for business-critical dashboards.
+- Created stored procedures for data quality validation, schema drift detection, and metadata-driven ETL orchestration, improving pipeline reliability and reducing data incident response time.
+- Ensured pipeline reliability by monitoring Jenkins, managing vulnerabilities, and setting up alerts to reduce downtime and meet SLAs.
+- Built and deployed a production AI personal finance advisor agent using Mastra and LangChain, with REST API authentication, CI/CD via GitHub Actions, and observability through Mastra Studio.
