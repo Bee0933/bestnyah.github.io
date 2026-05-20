@@ -1,6 +1,6 @@
 ---
 date: '2025-05-01'
-title: 'Senior Data Engineer'
+title: 'Data Engineer'
 company: 'SkywardOps'
 location: 'Remote, Nigeria'
 range: 'May 2025 – Present'
@@ -12,4 +12,3 @@ url: ''
 - Architected near real-time data pipelines using AWS Glue streaming ETL jobs integrated with SQS, SNS, and Lambda for event-driven processing, achieving sub-minute data freshness for business-critical dashboards.
 - Created stored procedures for data quality validation, schema drift detection, and metadata-driven ETL orchestration, improving pipeline reliability and reducing data incident response time.
 - Ensured pipeline reliability by monitoring Jenkins, managing vulnerabilities, and setting up alerts to reduce downtime and meet SLAs.
-- Built and deployed a production AI personal finance advisor agent using Mastra and LangChain, with REST API authentication, CI/CD via GitHub Actions, and observability through Mastra Studio.
