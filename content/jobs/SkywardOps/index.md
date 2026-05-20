@@ -2,7 +2,7 @@
 date: '2025-05-01'
 title: 'Data Engineer'
 company: 'SkywardOps'
-location: 'Remote, Nigeria'
+location: 'Remote, Texas, USA'
 range: 'May 2025 – Present'
 url: ''
 ---
