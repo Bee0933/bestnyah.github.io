@@ -132,7 +132,7 @@ const About = () => {
     'Data Processing⋮ Apache Spark, Apache Kafka, SNS, SQS, Debezium, Pandas, Athena',
     'ETL/ELT Tools⋮ Prefect, Apache Airflow, Glue, EMR, Lambda, Step Functions, Fivetran, dltHub',
     'DB/Datastore/Warehouse: Postgres, MongoDB, Redis, S3, Minio, Snowflake, BigQuery, Apache Iceberg',
-    'Analytics & Warehousing⋮ DBT, Tableau, Looker,Dimensional Modeling, ERD Modeling, Data Warehouse Design',
+    'Data Modeling & Transformation⋮ DBT, Dimensional Modeling, ERD Modeling, Data Warehouse Design, Tableau, Looker',
     'Software: Flask, FastAPI, RabbitMQ, Traefik, Nginx',
     'ML/AI: LangChain, LangGraph, Mastra, Jupyter, Scikit-learn, Numpy, Keras, Tensorflow, JAX, Flax, OpenAI, NLTK, Librosa, SciPy',
   ];
@@ -144,28 +144,30 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>I build data-driven solutions that turn complexity into clarity. </p>
             <p>
-              With a background in Computer Engineering, I specialize in building end-to-end data
-              platforms and AI/ML solutions that solve complex, real-world problems.{' '}
+              I’m a Data &amp; Software Engineer specializing in production-grade data pipelines,
+              cloud-native platforms, data lakehouse architectures, and AI-powered agent systems
+              that turn raw data into real insights and intelligent decisions.
             </p>
 
             <p>
-              My journey began at <a href="https://technocolabs.com/">Technocolabs Softwares</a>
-              &nbsp; where I contributed to the development of intelligent data pipelines, applying
-              spectral analysis and unsupervised learning techniques to audio data. Since then, I’ve
-              grown into a multidisciplinary Data & software Engineer, working with clients across
-              the globe to design, implement, and scale data infrastructure using tools like Apache
-              Kafka, Spark, Airflow, DBT, and cloud-native platforms.{' '}
+              Currently a Data Engineer at <a href="https://skywardops.com/">SkywardOps</a>, where I
+              design and deploy Apache Iceberg table infrastructure on AWS, architect near real-time
+              streaming pipelines, and build lakehouse solutions that reduce storage costs while
+              maintaining sub-minute data freshness for business-critical dashboards.
             </p>
 
             <p>
-              My work blends software engineering, data architecture, and machine learning to
-              deliver systems that are not only efficient and reliable but also insight-driven and
-              production-ready.
+              Across fulltime and freelance engagements, I’ve worked with teams across multiple
+              industries and geographies to deliver scalable data platforms, reliable pipelines, and
+              production-ready systems that drive real business outcomes.
             </p>
 
-            <p>Here is a list of the technologies that I'm familiar with:</p>
+            <p>
+              My foundation in Computer Engineering grounds everything I build, from data modeling
+              and pipeline reliability to observability and cost-efficient architecture. Here are
+              some of the technologies I work with:
+            </p>
           </div>
 
           <ul className="skills-list">
