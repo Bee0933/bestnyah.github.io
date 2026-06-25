@@ -1,9 +1,9 @@
 ---
-date: '1'
+date: '2'
 title: 'Reddit Worldnews Pipeline'
 cover: './reddit.png'
 github: 'https://github.com/Bee0933/reddit-r-news-pipeline'
-external: '#'
+external: ''
 tech:
   - Python
   - Airflow

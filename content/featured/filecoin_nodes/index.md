@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '4'
 title: 'Filecoin Nodes Infrastructure'
 cover: './filecoin.png'
 github: 'https://github.com/Bee0933/filecoin-nodes'

@@ -1,5 +1,5 @@
 ---
-date: '4'
+date: '5'
 title: 'Inside Airbnb Pipeline'
 cover: './airbnb-pipeline.jpg'
 github: 'https://github.com/Bee0933/inside-airbnb-pipeline?tab=readme-ov-file#inside-airbnb-pipeline'

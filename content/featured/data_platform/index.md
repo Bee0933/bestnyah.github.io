@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'Data Ingestion Platform'
 cover: './data-platform.png'
 github: 'https://github.com/Bee0933/Data-ingestion-platform'
